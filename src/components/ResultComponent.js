@@ -15,18 +15,4 @@ class ResultComponent extends Component {
 export default ResultComponent;
 
 
-class ResultComponent extends Component {
-
-
-    render() {
-        let {result} = this.props;
-        return (
-            <div className="result">
-                <p>{result}</p>
-            </div>
-    )  
-    }
-}
-export default ResultComponent;
-
 
