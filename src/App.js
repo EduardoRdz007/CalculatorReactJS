@@ -11,7 +11,6 @@ class App extends Component {
             result: ""
         }
     }
-    çççç
 
     onClick = button => {
 
@@ -81,5 +80,6 @@ class App extends Component {
         );
     }
 }
+
 
 export default App;
