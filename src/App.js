@@ -7,13 +7,7 @@ class App extends Component {
     constructor(){
         super();
 
-        this.state = {
-            result: ""
-        }
-    }
-
-    onClick = button => {
-
+      
         if(button === "="){
             this.calculate()
         }
